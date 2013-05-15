@@ -13,7 +13,9 @@
 // Plain-text Message Body
 var css = ".ii, .Ak { font: .9em monospace !important; }";
 // Quoted Text
-css += ".im, .gmail_quote { color: #666 !important; }";
+css += ".im, .gmail_quote { !important; }";
+// Compose Interface
+css += ".editable { font: .8em monospace !important; }";
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
