@@ -13,8 +13,6 @@
 
 // Plain-text Message Body
 var css = ".ii, .Ak { font: medium monospace !important; }";
-// Quoted Text
-css += ".im, .gmail_quote { !important; }";
 // Compose Interface
 css += ".editable { font: medium monospace !important; }";
 
