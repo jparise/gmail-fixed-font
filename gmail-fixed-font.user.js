@@ -2,18 +2,19 @@
 // @name           Gmail Fixed Font
 // @namespace      http://www.indelible.org/
 // @description    Fixed-font message bodies for Gmail
-// @author         Jon Parise
-// @version        1.23
+// @author         Jon Parise, James Tunnicliffe
+// @version        1.24
 // @include        http://mail.google.com/*
 // @include        https://mail.google.com/*
 // @include        http://*.mail.google.com/*
 // @include        https://*.mail.google.com/*
+// @grant          GM_addStyle
 // ==/UserScript==
 
 // Plain-text Message Body
-var css = ".ii, .Ak { font: .9em monospace !important; }";
-// Quoted Text
-css += ".im, .gmail_quote { color: #666 !important; }";
+var css = ".ii, .Ak { font: medium monospace !important; }";
+// Compose Interface
+css += ".editable { font: medium monospace !important; }";
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
@@ -28,3 +29,4 @@ if (typeof GM_addStyle != "undefined") {
         heads[0].appendChild(node);
     }
 }
+
