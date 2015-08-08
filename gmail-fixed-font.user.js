@@ -3,7 +3,7 @@
 // @namespace      http://www.indelible.org/
 // @description    Fixed-font message bodies for Gmail
 // @author         Jon Parise, James Tunnicliffe
-// @version        1.3
+// @version        1.4
 // @include        http://mail.google.com/*
 // @include        https://mail.google.com/*
 // @include        http://*.mail.google.com/*
@@ -12,9 +12,9 @@
 // ==/UserScript==
 
 // Plain-text Message Body
-var css = ".ii, .Ak { font: medium monospace !important; }";
+var css = ".ii, .Ak { font: small monospace !important; }";
 // Compose Interface
-css += ".editable { font: medium monospace !important; }";
+css += ".editable { font: small monospace !important; }";
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
