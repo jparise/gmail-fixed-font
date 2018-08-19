@@ -9,10 +9,11 @@
 // @grant          GM_addStyle
 // ==/UserScript==
 
-// Plain-text Message Body
-var css = ".ii, .Ak { font: small monospace !important; }";
-// Compose Interface
-css += ".editable { font: small monospace !important; }";
+var css = `
+    .a3s { font: small/1.5 monospace !important; }
+    .ii, .Ak { font: small monospace !important; }
+    .editable { font: small monospace !important; }
+`;
 
 if (typeof GM_addStyle != "undefined") {
     GM_addStyle(css);
