@@ -3,7 +3,7 @@
 // @namespace      https://www.indelible.org/
 // @description    Fixed-font message bodies for Gmail
 // @author         Jon Parise, James Tunnicliffe
-// @version        1.4
+// @version        1.50
 // @include        https://mail.google.com/*
 // @include        https://*.mail.google.com/*
 // @grant          GM_addStyle
