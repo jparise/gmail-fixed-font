@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name           Gmail Fixed Font
 // @namespace      https://www.indelible.org/
+// @homepageURL    https://github.com/jparise/gmail-fixed-font
 // @description    Fixed-font message bodies for Gmail
 // @author         Jon Parise, James Tunnicliffe
 // @version        1.50
