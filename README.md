@@ -3,12 +3,8 @@
 A user script that applies the browser's monospace font to message body text and compose window in Gmail.
 
 ## Installation
-### Chrome
-1. Download [gmail-fixed-font.user.js](https://github.com/jparise/gmail-fixed-font/raw/master/gmail-fixed-font.user.js)
-2. Visit [chrome://extensions/](chrome://extensions/) and drag the downloaded gmail-fixed-font.user.js onto the window.
-
-### Firefox
-1. Install [Greasemonkey](https://addons.mozilla.org/firefox/addon/748)
+### Chrome and Firefox
+1. Install [Tampermokey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (Chrome) or [Greasemonkey](https://addons.mozilla.org/firefox/addon/748) (Firefox)
 2. [Click to install](https://github.com/jparise/gmail-fixed-font/raw/master/gmail-fixed-font.user.js)
 
 ### Userscripts.org
